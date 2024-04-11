@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Games I enjoy</title>
+  <title>Map</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOM8nEO2MVUlGhxmHIWVDwGAoyf-G0Zak&callback=initialize&libraries=places" async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9yMLTYoW2y2EvZAU67KYcTU9jLZPMWPM&callback=initMap" async defer></script>
   <script src="js/map.js"></script>
 </head>
 <body id="mappage">
@@ -21,6 +21,7 @@
   </section>
   <main id="main_section">
     <h1>Google Maps</h1>
+    <div id="map"></div>
       <script>
         function initialize() {
           initMap();
