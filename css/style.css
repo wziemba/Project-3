@@ -1,0 +1,174 @@
+/*All site styles */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script');
+
+nav {
+  text-align: center;
+  background-color: #35dccc;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none; 
+  color: white;
+  
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Dancing Script';
+	color: #333;
+	
+}
+
+h2 {
+	text-align: center;
+	color: #333;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
+	background-color: #dcf9f6;
+	color: #333;
+	margin: 0;
+}
+
+header {
+	background-color: #35dccc;
+	color: #333;
+	padding: 20px;
+	text-align: center;
+}
+
+#main_section{
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+	position: static;
+	background-color: #35dccc;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+/* Game page styles */
+#gamepage img {
+	width: 25%;
+}
+
+#gamepage-1 {
+	text-align: center;
+}
+
+#gamepage-2 {
+	text-align: center;
+}
+
+#gamepage-3{
+	text-align: center;
+}
+
+.ems {
+	font-size: 1.1em;
+}	
+/* index page styles */
+#Real {
+	float:left;
+	width: 25%;
+}
+#Drawing {
+	float: right;
+	width: 25%;
+}
+
+#Album {
+	float: right;
+	width:170px;
+	height:170px;
+}
+
+#homepage img {
+	width: 200px;
+	height: auto;
+}
+
+.drawingheader {
+	vertical-align: middle;
+	text-align: center;
+}
+
+#draw p{
+	text-align: center;
+	padding-bottom: 4em;
+}
+
+#homepage h2 {
+	margin-bottom: 0;
+}
+
+.sports {
+	padding-bottom: 3em;
+}
+
+.taste {
+	padding-bottom: 3em;
+}
+
+.me {
+	padding-bottom: 3em;
+}
+/* resume page styles */
+#Resume h2{
+	text-align: left;
+}
+
+#Resume ol{
+	list-style: none;
+}
+
+#Resume ul{
+	list-style: square;
+	margin-left: 20px;
+}
+
+#Resume li{
+	margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+	footer {
+		padding: 5x;
+	}
+	footer p {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#Resume { 
+		text-align: justify;
+		font-style: normal;
+		font-size: 16px;
+	}
+	
+	#Skills {
+		text-align: center;
+		font-size: 14px;
+	}
+}
