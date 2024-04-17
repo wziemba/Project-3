@@ -1,3 +1,14 @@
+async function initMap() {
+  const { Map } = await google.maps.importLibrary("maps");
+
+  map = new Map(document.getElementById("map"), {
+    center: { lat: 41.8336, lng: -87.6275 },
+    zoom: 8,
+  });
+}
+
+initMap();
+
 const locations = [
   {
     position: {lat: 40.6892494, lng: -74.0470753 },

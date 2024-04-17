@@ -124,6 +124,10 @@ footer {
 .ems {
 	font-size: 1.1em;
 }	
+
+#map {
+	height: 100%;
+} 
 /* index page styles */
 #Real {
 	float:left;
