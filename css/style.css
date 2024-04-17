@@ -68,42 +68,40 @@ footer {
 	padding: 20px;
 }
 /* Game page styles */
-#galaxy_images {
-  position: relative;
-  height: 350px;
-  width: 100%;
+#slider {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
 }
 
-.slider_img {
-  height: 350px;
-  display: none;
+#slider img {
+    width: 100%;
+    height: auto;
 }
 
-.image_nav {
-  width: 100%;
-  padding: 20px 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  }
- 
-.slider_img--selected {
-  display: block;
-}
-  
-.image_button {
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  background: black;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
+#slideLeft, #slideRight {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
 }
 
-.image_button--selected {
-  background: #35dccc;
+#slideRight {
+    right: 0;
+}
+
+#slideLeft {
+    left: 0;
 }
 
 #gamepage img {
@@ -121,6 +119,7 @@ footer {
 #gamepage-3{
 	text-align: center;
 }
+
 
 .ems {
 	font-size: 1.1em;

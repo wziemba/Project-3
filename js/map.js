@@ -45,4 +45,29 @@ locations.forEach((location) => {
 	});
 });
 
+let currentSlide = 0;
+const images = [
+    'images/mariogalaxy.png',
+    'images/galaxy.jpg',
+    'images/Rosalinabook.webp',
+];
+
+function showSlide(index) {
+    currentSlide = index;
+    if (currentSlide >= images.length) { currentSlide = 0; }
+    if (currentSlide < 0) { currentSlide = images.length - 1; }
+    document.getElementById('slideImg').src = images[currentSlide];
+}
+
+function changeSlide(direction) {
+    showSlide(currentSlide + direction);
+}
+
+document.getElementById('slideLeft').addEventListener('click', function() {
+    changeSlide(-1);
+});
+
+document.getElementById('slideRight').addEventListener('click', function() {
+    changeSlide(1);
+});
 	
