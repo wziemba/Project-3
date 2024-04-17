@@ -1,13 +1,15 @@
-async function initMap() {
-  const { Map } = await google.maps.importLibrary("maps");
-
-  map = new Map(document.getElementById("map"), {
-    center: { lat: 41.8336, lng: -87.6275 },
-    zoom: 8,
-  });
-}
-
-initMap();
+function init(){
+	//alert('it works');
+	var el = document.getElementById('canvas');
+	var myLocation = new google.maps.LatLng(41.83566926343903, -87.62569531405664);
+	var mapOptions = {
+		center: myLocation,
+		zoom: 18,
+		mapTypeId: google.maps.MapTypeId.SATELLITE,
+		mapTypeControlOptions: {
+			position: google.maps.ControlPosition.BOTTOM_CENTER
+		}
+	};
 
 const locations = [
   {

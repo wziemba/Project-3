@@ -20,17 +20,9 @@
   </section>
   <main id="main_section">
     <h1>Google Maps</h1>
-    <div id="map"></div>
-	<script>
-      var map;
-      function initMap() {
-        const map = new google.maps.Map(document.getElementById('map'), {
-          center: { lat: 41.8336, lng: -87.6275 },
-          zoom: 5
-        });
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4Unm9yVTTy6gKzECE50CBxggVUlAvkvs&loading=async&callback=initMap"
-    async defer></script>
+    <div id="wrapper">
+      <div id="canvas"></div>
+    </div>
     <footer>
       <p>Created by Wiktoria Ziemba</p>
       <address>
