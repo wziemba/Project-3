@@ -68,6 +68,35 @@ footer {
 	padding: 20px;
 }
 /* Game page styles */
+.galaxy_images {
+  position: relative;
+  height: 350px;
+  width: 100%;
+}
+
+.slider_img {
+  height: 350px;
+  display: none;
+}
+
+.slider_img--selected {
+  display: block;
+}
+  
+.image_button {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: black;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.image_button--selected {
+  background: #35dccc;
+}
+
 #gamepage img {
 	width: 25%;
 }
