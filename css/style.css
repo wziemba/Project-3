@@ -68,7 +68,7 @@ footer {
 	padding: 20px;
 }
 /* Game page styles */
-.galaxy_images {
+#galaxy_images {
   position: relative;
   height: 350px;
   width: 100%;
