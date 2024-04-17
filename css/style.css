@@ -180,16 +180,25 @@ footer {
 	margin-bottom: 5px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1000px) {
 	footer {
 		padding: 5px;
 	}
 	footer p {
-		font-size: 12px;
+		font-size: 10px;
+	}
+	
+	body {
+		font-size: 16px;
+	}
+	
+	nav {
+		font-size: 16px;
+		padding: 0 15px;
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1000px) {
 	#Resume { 
 		text-align: justify;
 		font-style: normal;
@@ -199,5 +208,23 @@ footer {
 	#Skills {
 		text-align: center;
 		font-size: 14px;
+	} 
+	
+	#Resume h1 {
+		font-size: 24px;
 	}
+	
+	#Resume h3 {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	#Reumse li {
+		padding: 3px;
+	}
+	
+	#Resume h2 {
+		font size: 20px;
+		margin-bottom: 10px;
+		margin-top 15px;
+	}	
 }
